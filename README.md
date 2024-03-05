@@ -9,7 +9,8 @@
 
 * Agora, vamos criar uma entidade simples chamada Filme que representará os dados que queremos persistir no banco de dados:
 
-<code>    
+<code>   
+	
 	@Entity
         public class Filme {
 	@Id
@@ -41,13 +42,15 @@
 		this.nomeDiretor = nomeDiretor;
 	}
         }
+
 </code>
 
 # Persistência e Gravação no Banco de Dados
 
 * Com a entidade Filme definida, podemos agora criar uma instância dela, definir os valores desejados e persisti-la no banco de dados usando o Hibernate. Abaixo está um exemplo simples de como fazer isso:
-  <code>
-		// TODO Auto-generated method stub
+
+   <code>
+	   
 		Filme f1= new Filme();
 		f1.setNome("x-man");
 		f1.setNomeDiretor("Lucas George");
