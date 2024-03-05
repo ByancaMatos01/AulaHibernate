@@ -64,3 +64,6 @@
 		em.getTransaction().commit();
 
 </code>
+
+# Imagem da gravação No BD
+![image](https://github.com/ByancaMatos01/AulaHibernate/assets/122841376/bded6400-00c4-47c4-8124-93c2f8383828)
