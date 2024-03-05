@@ -8,7 +8,7 @@
 * Agora, vamos criar uma entidade simples chamada Filme que representará os dados que queremos persistir no banco de dados:
 
 <code> 
-	
+         
 	@Entity
         public class Filme {
 	@Id
@@ -39,7 +39,6 @@
 	public void setNomeDiretor(String nomeDiretor) {
 		this.nomeDiretor = nomeDiretor;
 	}
-	
         }
 </code>
 # Persistência e Gravação no Banco de Dados
@@ -58,7 +57,5 @@
 		em.getTransaction().begin();
 		em.persist(f1);
 		em.getTransaction().commit();
-
-
 
 </code>
