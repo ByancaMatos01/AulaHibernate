@@ -1,10 +1,12 @@
 # Início Rápido: Hibernate - Configuração Básica
 * Este repositório contém um exemplo simples para começar a usar o Hibernate em seu projeto Java.
 * Este guia rápido aborda a configuração básica do Hibernate, incluindo a adição das dependências necessárias ao arquivo pom.xml do Maven, a criação de uma entidade simples e a persistência e gravação de dados no banco de dados MySQL.
+  
 # Criação do POM.XML
 * dicione as seguintes dependências ao seu arquivo pom.xml para garantir que o Hibernate e o conector MySQL sejam incluídos em seu projeto:
   
 # Criando a Entidade Filme
+
 * Agora, vamos criar uma entidade simples chamada Filme que representará os dados que queremos persistir no banco de dados:
 
 <code> 
@@ -41,7 +43,9 @@
 	}
         }
 </code>
+
 # Persistência e Gravação no Banco de Dados
+
 * Com a entidade Filme definida, podemos agora criar uma instância dela, definir os valores desejados e persisti-la no banco de dados usando o Hibernate. Abaixo está um exemplo simples de como fazer isso:
   <code>
   
